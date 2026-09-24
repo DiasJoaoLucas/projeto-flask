@@ -1,0 +1,25 @@
+
+{% extends "base.html" %}
+
+{% block conteudo %}
+<section class="pagina-contato">
+  <h1>Contato</h1>
+  <p>Formulário de exemplo (front-end apenas — não envia dados para nenhum servidor).</p>
+
+  <form class="formulario" onsubmit="return false;">
+    <label>
+      Nome
+      <input type="text" placeholder="Seu nome" required>
+    </label>
+    <label>
+      E-mail
+      <input type="email" placeholder="voce@exemplo.com" required>
+    </label>
+    <label>
+      Mensagem
+      <textarea rows="4" placeholder="Sua mensagem..."></textarea>
+    </label>
+    <button type="submit" class="botao">Enviar</button>
+  </form>
+</section>
+{% endblock %}

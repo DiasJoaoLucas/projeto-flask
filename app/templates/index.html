@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<section class="hero">
+  <h1>Minha primeira aplicação Flask</h1>
+  <p>Aplicação executando dentro de um container Docker, com navbar, menu dinâmico e páginas separadas.</p>
+  <a class="botao" href="{{ url_for('projetos') }}">Ver projetos</a>
+</section>
+
+<section class="cartoes">
+  <div class="cartao">
+    <h3>🧭 Navegação</h3>
+    <p>Menu montado a partir de uma lista no <code>app.py</code>, não hardcoded em cada HTML.</p>
+  </div>
+  <div class="cartao">
+    <h3>⚙️ Backend</h3>
+    <p>Rotas separadas por responsabilidade: início, sobre, projetos e contato.</p>
+  </div>
+  <div class="cartao">
+    <h3>📡 API interna</h3>
+    <p>O rodapé consulta <code>/api/status</code> via JavaScript para mostrar que o servidor está de pé.</p>
+  </div>
+</section>
+{% endblock %}
