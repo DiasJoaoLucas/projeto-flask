@@ -659,6 +659,7 @@ ou
 * **`docker run -d -p 5000:5000 --name [nome_container] [nome_imagem]`**: Cria e executa um container em modo background (`-d`), mapeando a porta local para a porta do container, aplicando o nome de referência informado.
 * **`docker ps`**: Lista os containers que estão em execução no momento.
 * **`docker stop [nome_container] && docker rm [nome_container]`**: Encerra e remove o container atual, uma etapa necessária antes de subir um novo container com o mesmo nome.
+* 
 
 
 # CRÉDITOS 
