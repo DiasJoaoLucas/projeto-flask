@@ -4,6 +4,7 @@
 
 Este projeto documenta o passo a passo da criação de um ambiente Docker e a conteinerização de uma aplicação web em Python utilizando o microframework Flask. O objetivo é demonstrar o ciclo completo de conteinerização: desde a preparação do ambiente e instalação do Docker, até a escrita do Dockerfile, build da imagem e execução do container. A aplicação foi desenvolvida em duas etapas, evoluindo de uma versão inicial simples para um sistema web completo com múltiplas rotas, templates dinâmicos e consumo de API via JavaScript.
 
+
 ## Estrutura do Projeto
 
 O projeto está organizado em dois passos principais de desenvolvimento:
